@@ -23,3 +23,14 @@ python_library {
     ],
     pkg_path: "yaml",
 }
+
+filegroup {
+    name: "pyyaml_filegroup",
+    srcs: [
+        "*.py",
+    ],
+    // This filegroup is needed for a google-internal module
+    visibility: [
+        "//vendor:__subpackages__",
+    ],
+}
