@@ -7,3 +7,4 @@ murj@google.com
 angli@google.com
 lancefluger@google.com
 
+include platform/system/core:/janitors/OWNERS #{LAST_RESORT_SUGGESTION}
