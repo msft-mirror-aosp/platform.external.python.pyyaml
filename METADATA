@@ -1,7 +1,6 @@
-name: "pyyaml"
-description:
-    "A full-featured YAML processing framework for Python"
 
+name: "pyyaml"
+description: "A full-featured YAML processing framework for Python"
 third_party {
   url {
     type: HOMEPAGE
@@ -12,6 +11,13 @@ third_party {
     value: "https://github.com/yaml/pyyaml.git"
   }
   version: "6.0"
-  last_upgrade_date { year: 2022 month: 5 day: 20 }
   license_type: NOTICE
+  security {
+    tag: "NVD-CPE2.3:cpe:/a:pyyaml:pyyaml:6.0"
+  }
+  last_upgrade_date {
+    year: 2022
+    month: 5
+    day: 20
+  }
 }
